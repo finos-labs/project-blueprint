@@ -4,6 +4,18 @@
 
 Project blueprint is a GitHub repository template for all [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories, contributed and maintained by FINOS as part of the [Open Developer Platform (ODP)](https://odp.finos.org) initiative.
 
+
+## Using DCO to sign your commits
+
+All commits must be signed with a DCO signature to avoid being flagged by the DCO Bot. This means that your commit log message must contain a line that looks like the following one, with your actual name and email address:
+
+```
+Signed-off-by: John Doe <john.doe@example.com>
+```
+
+Adding the `-s` flag to your `git commit` will add that line automatically. You can also add it manually as part of your commit log message or add it afterwards with `git commit --amend -s`.
+
+
 ## How to use this blueprint
 
 1. Read the docs on [ODP website](https://odp.finos.org/docs/project-collaboration#finos-project-blueprint)
