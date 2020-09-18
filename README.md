@@ -15,6 +15,11 @@ Signed-off-by: John Doe <john.doe@example.com>
 
 Adding the `-s` flag to your `git commit` will add that line automatically. You can also add it manually as part of your commit log message or add it afterwards with `git commit --amend -s`.
 
+### Helpful Resources
+- [Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
+- [Signing commits
+](https://docs.github.com/en/github/authenticating-to-github/signing-commits)
+
 
 ## How to use this blueprint
 
