@@ -1,20 +1,11 @@
 # Contributing to {project name}
 
-## Contributor License Agreement (CLA)
-A CLA is a document that specifies how a project is allowed to use your
-contribution; they are commonly used in many open source projects.
+{project name} is [Apache 2.0 licensed](LICENSE) and accepts contributions via git pull requests.  Each commit must include a DCO line in the git commit message:
 
-**_All_ contributions to _all_ projects hosted by [FINOS](https://www.finos.org/)
-must be made with a
-[Foundation CLA](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute)
-in place, and there are [additional legal requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Legal+Requirements)
-that must also be met.**
+`Signed-off-by: GitHub User Name <your.email@example.com>`
 
-Commits and pull requests to FINOS repositories such as {project name} will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS ["CLA Bot" tool](https://github.com/finos/cla-bot). Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
-
-As a result, PRs submitted to the {project name} project cannot be accepted until you have a CLA in place with the Foundation.
-
-Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org?subject=CLA)
+This sign-off means you agree the commit satisfies the
+[Developer Certificate of Origin (DCO).](https://developercertificate.org/)
 
 ## Contributing Issues
 
