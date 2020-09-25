@@ -15,7 +15,7 @@ Signed-off-by: John Doe <john.doe@example.com>
 
 Adding the `-s` flag to your `git commit` will add that line automatically. You can also add it manually as part of your commit log message or add it afterwards with `git commit --amend -s`.
 
-### Helpful Resources
+### Helpful DCO Resources
 - [Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
 - [Signing commits
 ](https://docs.github.com/en/github/authenticating-to-github/signing-commits)
@@ -23,11 +23,10 @@ Adding the `-s` flag to your `git commit` will add that line automatically. You 
 
 ## How to use this blueprint
 
-1. Read the docs on [ODP website](https://odp.finos.org/docs/project-collaboration#finos-project-blueprint)
-2. Clone this repository locally (`git clone https://github.com/finos/project-blueprint.git`)
-3. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your own repository (do _not_ copy this `README.md` file).
-4. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
-5. Search and replace the following tokens in the newly copied files:
+1. Clone this repository locally (`git clone https://github.com/finos-labs/project-blueprint.git`)
+2. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your own repository (do _not_ copy this `README.md` file).
+3. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
+4. Search and replace the following tokens in the newly copied files:
 
   | Token                        | Replace with                                                      |
   | ---------------------------- | ----------------------------------------------------------------- |
@@ -44,7 +43,7 @@ Adding the `-s` flag to your `git commit` will add that line automatically. You 
 
 ## License
 
-Copyright 2019 Fintech Open Source Foundation
+Copyright 2020 Fintech Open Source Foundation
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
