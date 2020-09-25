@@ -43,7 +43,7 @@ Adding the `-s` flag to your `git commit` will add that line automatically. You 
 
 ## License
 
-Copyright 2019 Fintech Open Source Foundation
+Copyright 2020 Fintech Open Source Foundation
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
