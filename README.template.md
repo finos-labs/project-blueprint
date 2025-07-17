@@ -43,12 +43,20 @@ List the roadmap steps; alternatively link the Confluence Wiki page where the pr
 
 ## Contributing
 
-1. Fork it (<https://github.com/finos/{project name}/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
-4. Commit your changes (`git commit -am 'Add some fooBar'`)
-5. Push to the branch (`git push origin feature/fooBar`)
-6. Create a new Pull Request
+**All commits** must be signed with a DCO signature to avoid being flagged by the DCO Bot. This means that your commit log message must contain a line that looks like the following one, with your actual name and email address:
+
+```
+Signed-off-by: John Doe <john.doe@example.com>
+```
+
+Adding the `-s` flag to your `git commit` will add that line automatically. You can also add it manually as part of your commit log message or add it afterwards with `git commit --amend -s`.
+
+See [CONTRIBUTING.md](./.github/CONTRIBUTING.md) for more information
+
+### Helpful DCO Resources
+- [Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
+- [Signing commits
+](https://docs.github.com/en/github/authenticating-to-github/signing-commits)
 
 ## License
 
