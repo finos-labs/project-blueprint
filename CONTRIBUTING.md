@@ -11,7 +11,7 @@ This sign-off means you agree the commit satisfies the
 
 ### Prerequisites
 
-* [ ] Have you [searched for duplicates](https://github.com/finos-labs/{project name}/issues?utf8=%E2%9C%93&q=)?  A simple search for exception error messages or a summary of the unexpected behaviour should suffice.
+* [ ] Have you [searched for duplicates](https://github.com/finos-labs/{project-slug}/issues?utf8=%E2%9C%93&q=)?  A simple search for exception error messages or a summary of the unexpected behaviour should suffice.
 * [ ] Are you running the latest version?
 * [ ] Are you sure this is a bug or missing capability?
 
@@ -28,7 +28,7 @@ To make review of PRs easier, please:
 
  * Please make sure your PRs will merge cleanly - PRs that don't are unlikely to be accepted.
  * For code contributions, follow the existing code layout.
- * For documentation contributions, follow the general structure, language, and tone of the [existing docs](https://github.com/finos-labs/{project name}/wiki).
+ * For documentation contributions, follow the general structure, language, and tone of the [existing docs](https://github.com/finos-labs/{project-slug}/wiki).
  * Keep commits small and cohesive - if you have multiple contributions, please submit them as independent commits (and ideally as independent PRs too).
  * Reference issues if your PR has anything to do with an issue (even if it doesn't address it).
  * Minimise non-functional changes (e.g. whitespace).
