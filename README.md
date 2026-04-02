@@ -35,8 +35,9 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
 
 5. Open the `NOTICE` file in a text editor and either remove the `{Other notices, as necessary}` token, or [add attributions if required by your code's dependencies](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530255/License+Categories).
 6. Open the `README.md` file in a text editor and complete the content as appropriate for your project.
-7. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
-8. Commit all of your changes.
+7. Open the `MAINTAINERS.md` file in a text editor and add maintainer names, GitHub usernames, and email addresses.
+8. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
+9. Commit all of your changes.
 
 ## License
 
