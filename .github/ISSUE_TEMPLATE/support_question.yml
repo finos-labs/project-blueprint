@@ -1,0 +1,46 @@
+name: "🤗 Support Question"
+description: If you have a question about configuration, usage, etc. 💬
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Stop! ✋ 
+        Before you post, please **search existing issues and documentation**. There’s a high chance your question has already been answered!
+
+  - type: checkboxes
+    id: search-check
+    attributes:
+      label: Self-Help Check
+      options:
+        - label: I have searched the [existing issues](https://github.com/OWNER/REPO/issues) and documentation but couldn't find an answer.
+          required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Support Question
+      description: What do you need help with? Please be as specific as possible.
+      placeholder: |
+        - What are you trying to achieve?
+        - What configuration are you currently using?
+        - What have you tried so far?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Project version, OS, etc. (if relevant to your question).
+      placeholder: "e.g. Version 1.2.3, Windows 11, Node.js v20"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any screenshots, log snippets, or code examples that might help us help you.
+    validations:
+      required: false
