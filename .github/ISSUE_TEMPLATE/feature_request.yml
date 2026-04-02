@@ -1,0 +1,49 @@
+name: "🚀 Feature Request"
+description: I have a suggestion (and may want to implement it 🙂)
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thank you for your suggestion!
+        To help us understand your request, please focus on the **problem** you are trying to solve first.
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Description of Problem
+      description: |
+        What problem are you trying to solve that the project doesn't currently solve? 
+        Try using the Job Story form: "When [triggering condition], I want to [motivation/goal], so I can [outcome]."
+      placeholder: |
+        Please resist the temptation to describe your request in terms of a solution. 
+        Example: "When I am managing a large list of items, I want to be able to filter by date, so I can find recent entries faster."
+    validations:
+      required: true
+
+  - type: textarea
+    id: potential-solutions
+    attributes:
+      label: Potential Solutions
+      description: Clearly and concisely describe what you want to happen. 
+      placeholder: |
+        - Proposed solution...
+        - Any considered drawbacks...
+        - Alternatives you've thought about...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: implementation
+    attributes:
+      label: Implementation
+      options:
+        - label: I am interested in implementing this feature myself!
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots here.
+    validations:
+      required: false
